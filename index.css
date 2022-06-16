@@ -1,0 +1,40 @@
+.first h1 {
+  color: black;
+}
+.first h1 span {
+  color: blueviolet;
+}
+.first button {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 0px 4px 0px;
+  border: none;
+}
+.first .btn {
+  display: flex;
+}
+.first .left {
+  color: white;
+  background-color: blueviolet;
+}
+.first .right {
+  color: blueviolet;
+  background-color: white;
+}
+.first .container {
+  background-color: #869ab8;
+}
+@media only screen and (min-width: 500px) {
+  .first .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first .btn {
+    justify-content: center;
+    align-items: center;
+  }
+}
